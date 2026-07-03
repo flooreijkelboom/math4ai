@@ -23,7 +23,10 @@ Each section contains a tl;dr on top and a summary at the bottom discussing the 
 and one important exercise to help you understand the main point of the section. Please notice the search bar at the top if 
 you want to quickly look for a topic (e.g. 'marginalization').
 
+## Check your knowledge
+You can check your understanding of the mathematical concepts presented on this website by completing the exercises in the following [sheet](https://surfdrive.surf.nl/s/9a5ctEtR3otmG6Q). You can find the solutions [here](https://surfdrive.surf.nl/s/bAzC6WJrDAffkQD).
 
+## Contact
 If you see any errors on this site, please [write us](contact) and we will make sure to address them as soon as possible.
 
 **Floor Eijkelboom & Tin Hadži Veljković**
