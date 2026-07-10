@@ -57,8 +57,13 @@ In the the general case of functions $$f: \mathbb{R}^n \to \mathbb{R}^m$$ we cal
 $$\frac{d\textbf{y}}{d\textbf{x}} = \mathbf{J}_\textbf{y}(\textbf{x})$$. 
 The Jacobian is just the matrix which has on its $$i$$ row all the partial derivatives of $$y_i$$ with respect to $$x_j$$, i.e. 
 $$\mathbf{J}_{ij} = \frac{\partial y_i}{\partial x_j}$$. Hence, since we only have one output here, we have that the 
-Jacobian has only one row.[^1]
+Jacobian has only one row.
 
+{: .note }
+Another common representation of a derivative of a scalar function is the gradient, which is the (column) whose components are the partial derivatives: 
+$$\left(\nabla y(\mathbf{x}) = \begin{bmatrix} \frac{\partial y}{\partial x_1} & \cdots & \frac{\partial y}{\partial x_n}\end{bmatrix}^{\!\top} \right).$$
+Note that, therefore, the gradient is the transpose of the derivative:
+$$\left( \frac{dy}{d\mathbf{x}} = \nabla y(\mathbf{x})^\top \right)$$.
 
 We can also have a function $$\textbf{f}: \mathbb{R} \to \mathbb{R}^2$$ which maps $$\textbf{f}: x \mapsto \begin{bmatrix}x^2 \\ \sqrt{x} \end{bmatrix}.$$ 
 In this case, we have that $$\textbf{y} = \textbf{f}(x)$$ where $$\textbf{y}$$ is a vector (and hence is written in bold font), 
@@ -130,8 +135,3 @@ This will be the topic of the rest of this section.
 
 {: .summary }
 In this section we extended our graphical interpretation of derivatives to functions $$f: \mathbb{R}^m \to \mathbb{R}^n.$$
-
-[^1]: Another common representation of a derivative of a scalar function is the gradient, which is the (column) whose components are the partial derivatives: 
-$$\left(\nabla y(\mathbf{x}) = \begin{bmatrix} \frac{\partial y}{\partial x_1} & \cdots & \frac{\partial y}{\partial x_n}\end{bmatrix}^{\!\top} \right).$$
-Note that, therefore, the gradient is the transpose of the derivative:
-$$\left( \frac{dy}{d\mathbf{x}} = \nabla y(\mathbf{x})^\top \right).$$
