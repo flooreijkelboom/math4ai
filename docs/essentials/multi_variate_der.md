@@ -131,4 +131,7 @@ This will be the topic of the rest of this section.
 {: .summary }
 In this section we extended our graphical interpretation of derivatives to functions $$f: \mathbb{R}^m \to \mathbb{R}^n.$$
 
-[^1]: Another common representation of a derivative of a scalar function is the gradient, which is the (column) whose components are the partial derivatives $\left(\nabla y(\mathbf{x}) = \begin{bmatrix} \frac{\partial y}{\partial x_1} & \cdots & \frac{\partial y}{\partial x_n}\end{bmatrix}^{\!\top} \right)$. Note that, therefore, the gradient is the transpose of the derivative $\left( \frac{dy}{d\mathbf{x}} = \nabla y(\mathbf{x})^\top \right)$.
+[^1]: Another common representation of a derivative of a scalar function is the gradient, which is the (column) whose components are the partial derivatives: 
+$$\left(\nabla y(\mathbf{x}) = \begin{bmatrix} \frac{\partial y}{\partial x_1} & \cdots & \frac{\partial y}{\partial x_n}\end{bmatrix}^{\!\top} \right).$$
+Note that, therefore, the gradient is the transpose of the derivative:
+$$\left( \frac{dy}{d\mathbf{x}} = \nabla y(\mathbf{x})^\top \right).$$
