@@ -53,9 +53,7 @@ $$\frac{dy}{d\textbf{x}} = \begin{bmatrix} \frac{\partial f}{\partial x_1} & \fr
 where we understand $$\textbf{x} := \begin{bmatrix}x_1 \\ x_2 \end{bmatrix}.$$
 
 
-We call this full derivative a **gradient** in the case we have functions $$f: \mathbb{R}^n \to \mathbb{R}$$, denoted as 
-$$\frac{dy}{d\textbf{x}} = \nabla y (\textbf{x}) = \text{grad } y(\textbf{x})$$. However, in the the general case of 
-functions $$f: \mathbb{R}^n \to \mathbb{R}^m$$ we call the resulting matrix a **Jacobian**, denoted as 
+In the the general case of functions $$f: \mathbb{R}^n \to \mathbb{R}^m$$ we call the resulting matrix a **Jacobian**, denoted as 
 $$\frac{d\textbf{y}}{d\textbf{x}} = \mathbf{J}_\textbf{y}(\textbf{x})$$. 
 The Jacobian is just the matrix which has on its $$i$$ row all the partial derivatives of $$y_i$$ with respect to $$x_j$$, i.e. 
 $$\mathbf{J}_{ij} = \frac{\partial y_i}{\partial x_j}$$. Hence, since we only have one output here, we have that the 
@@ -131,6 +129,6 @@ This will be the topic of the rest of this section.
 
 
 {: .summary }
-In this section we extended our graphical interpretation of derivatives to functions $$f: \mathbb{R}^m \to \mathbb{R}^n$$.
+In this section we extended our graphical interpretation of derivatives to functions $$f: \mathbb{R}^m \to \mathbb{R}^n.$$
 
-[^1]: For pedagogical reasons, we will call all such higher-order derivatives of $$y$$ Jacobians and denote them with $$\frac{d\textbf{y}}{d\textbf{x}}$$, but in practice, most people will just use the word 'gradient' here anyway.
+[^1]: Another common representation of a derivative of a scalar function is the gradient, which is the (column) whose components are the partial derivatives $\left(\nabla y(\mathbf{x}) = \begin{bmatrix} \frac{\partial y}{\partial x_1} & \cdots & \frac{\partial y}{\partial x_n}\end{bmatrix}^{\!\top} \right)$. Note that, therefore, the gradient is the transpose of the derivative $\left( \frac{dy}{d\mathbf{x}} = \nabla y(\mathbf{x})^\top \right)$.
