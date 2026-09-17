@@ -77,6 +77,9 @@ $$
 > 
 >   Finally, we need to check whether the projection is orthogonal, and we do so by checking whether $$P = P^{\text{T}}$$ holds. This is trivial since the matrix is diagonal, so the transposed matrix is by default equal to the original matrix. Thus, this projection is indeed an orthogonal projection.
 
+{: .note }
+Orthogonal projection is not to be confused with an orthogonal matrix. In an orthogonal matrix, we refer to the orthogonal relationship between the columns. Whereas in orthogonal projection, we refer to the relationship between the projection vector ($$P_{\mathbf{c}}(\mathbf{a})$$) and the vector representing the error between the projection vector and the original vector ($$\mathbf{a} - P_{\mathbf{c}}(\mathbf{a})$$).
+
 However, in most cases, we will be interested in orthogonal projections onto vectors. As motivated at the beginning of the section, we denote the projection of the vector $$\mathbf{a}$$ onto vector $$\mathbf{c}$$ as $$P_{\mathbf{c}}(\mathbf{a})$$. The projection itself is a vector pointing in the same direction as the vector $$\mathbf{c}$$ whose length is the ratio of the vector $$\mathbf{a}$$ which is parallel to the vector $$\mathbf{c}$$. For this reason, we can also denote the projection as $$\mathbf{a}_{\lVert}$$[^2]. From trigonometry, we know that the magnitude of the projection is equal to
 
 $$
